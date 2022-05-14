@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Ordenamiento_de_3_numeros/1.0.0": {
+        "runtime": {
+          "Ordenamiento_de_3_numeros.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ordenamiento_de_3_numeros/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
