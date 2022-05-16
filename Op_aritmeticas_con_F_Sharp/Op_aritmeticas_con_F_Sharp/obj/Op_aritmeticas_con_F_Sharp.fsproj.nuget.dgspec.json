@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\germa\\OneDrive\\Escritorio\\informatica 1-2022\\INF-319 PROGRAMACIÓN FUNCIONAL\\Trabajos visual Studio\\Op_aritmeticas_con_F_Sharp\\Op_aritmeticas_con_F_Sharp\\Op_aritmeticas_con_F_Sharp.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\germa\\OneDrive\\Escritorio\\informatica 1-2022\\INF-319 PROGRAMACIÓN FUNCIONAL\\Trabajos visual Studio\\Op_aritmeticas_con_F_Sharp\\Op_aritmeticas_con_F_Sharp\\Op_aritmeticas_con_F_Sharp.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\germa\\OneDrive\\Escritorio\\informatica 1-2022\\INF-319 PROGRAMACIÓN FUNCIONAL\\Trabajos visual Studio\\Op_aritmeticas_con_F_Sharp\\Op_aritmeticas_con_F_Sharp\\Op_aritmeticas_con_F_Sharp.fsproj",
+        "projectName": "Op_aritmeticas_con_F_Sharp",
+        "projectPath": "C:\\Users\\germa\\OneDrive\\Escritorio\\informatica 1-2022\\INF-319 PROGRAMACIÓN FUNCIONAL\\Trabajos visual Studio\\Op_aritmeticas_con_F_Sharp\\Op_aritmeticas_con_F_Sharp\\Op_aritmeticas_con_F_Sharp.fsproj",
+        "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\germa\\OneDrive\\Escritorio\\informatica 1-2022\\INF-319 PROGRAMACIÓN FUNCIONAL\\Trabajos visual Studio\\Op_aritmeticas_con_F_Sharp\\Op_aritmeticas_con_F_Sharp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\germa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
