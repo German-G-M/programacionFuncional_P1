@@ -1,0 +1,79 @@
+
+> help("data.frame")
+> help(c)
+> cartas<-c("A",2:10,"J","Q","K")
+> cartas
+ [1] "A"  "2"  "3"  "4"  "5"  "6"  "7"  "8"  "9"  "10" "J"  "Q"  "K" 
+> replica_cartas<-c(rep(cartas,4))
+> replica_cartas
+ [1] "A"  "2"  "3"  "4"  "5"  "6"  "7"  "8"  "9"  "10" "J"  "Q"  "K"  "A"  "2"  "3"  "4"  "5"  "6"  "7"  "8"  "9"  "10"
+[24] "J"  "Q"  "K"  "A"  "2"  "3"  "4"  "5"  "6"  "7"  "8"  "9"  "10" "J"  "Q"  "K"  "A"  "2"  "3"  "4"  "5"  "6"  "7" 
+[47] "8"  "9"  "10" "J"  "Q"  "K" 
+> palos<-c("Espada","Corazon","Trebol","Diamante")
+> palos
+[1] "Espada"   "Corazon"  "Trebol"   "Diamante"
+> replica_palos<-c(rep(palos,rep(13,4)))
+> replica_palos
+ [1] "Espada"   "Espada"   "Espada"   "Espada"   "Espada"   "Espada"   "Espada"   "Espada"   "Espada"   "Espada"  
+[11] "Espada"   "Espada"   "Espada"   "Corazon"  "Corazon"  "Corazon"  "Corazon"  "Corazon"  "Corazon"  "Corazon" 
+[21] "Corazon"  "Corazon"  "Corazon"  "Corazon"  "Corazon"  "Corazon"  "Trebol"   "Trebol"   "Trebol"   "Trebol"  
+[31] "Trebol"   "Trebol"   "Trebol"   "Trebol"   "Trebol"   "Trebol"   "Trebol"   "Trebol"   "Trebol"   "Diamante"
+[41] "Diamante" "Diamante" "Diamante" "Diamante" "Diamante" "Diamante" "Diamante" "Diamante" "Diamante" "Diamante"
+[51] "Diamante" "Diamante"
+> todas_las_cartas=data.frame(replica_cartas,replica_palos)
+> todas_las_cartas
+   replica_cartas replica_palos
+1               A        Espada
+2               2        Espada
+3               3        Espada
+4               4        Espada
+5               5        Espada
+6               6        Espada
+7               7        Espada
+8               8        Espada
+9               9        Espada
+10             10        Espada
+11              J        Espada
+12              Q        Espada
+13              K        Espada
+14              A       Corazon
+15              2       Corazon
+16              3       Corazon
+17              4       Corazon
+18              5       Corazon
+19              6       Corazon
+20              7       Corazon
+21              8       Corazon
+22              9       Corazon
+23             10       Corazon
+24              J       Corazon
+25              Q       Corazon
+26              K       Corazon
+27              A        Trebol
+28              2        Trebol
+29              3        Trebol
+30              4        Trebol
+31              5        Trebol
+32              6        Trebol
+33              7        Trebol
+34              8        Trebol
+35              9        Trebol
+36             10        Trebol
+37              J        Trebol
+38              Q        Trebol
+39              K        Trebol
+40              A      Diamante
+41              2      Diamante
+42              3      Diamante
+43              4      Diamante
+44              5      Diamante
+45              6      Diamante
+46              7      Diamante
+47              8      Diamante
+48              9      Diamante
+49             10      Diamante
+50              J      Diamante
+51              Q      Diamante
+52              K      Diamante
+> savehistory("C:/Users/germa/OneDrive/Escritorio/informatica 1-2022/INF-319 PROGRAMACIÓN FUNCIONAL/baraja_de_cartas_con_R.Rhistory")
+> help("save")
