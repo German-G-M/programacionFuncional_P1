@@ -1,0 +1,38 @@
+ghci> -- OPERACIONES MATEMÁTICAS EN HASKELL (Usando funciones)
+ghci> --leemos 2 numeros desde consola
+ghci> print "INTRODUZCA 2 NUMEROS ENTEROS"
+"INTRODUZCA 2 NUMEROS ENTEROS"
+ghci> numero1 <-getLine
+4
+ghci> numero2 <-getLine
+3
+ghci> --convertimos a entero ambos numeros
+ghci> let num1 = read numero1 :: Integer
+ghci> let num2 = read numero2 :: Integer
+ghci>
+ghci> --Ahora aplicamos funciones para las 4 operaciones aritméticas
+ghci>
+ghci> --función suma
+ghci> (+) num1 num2
+7
+ghci> --función resta
+ghci> (-) num1 num2
+1
+ghci> --función multiplicación
+ghci> (*) num1 num2
+12
+ghci> --función división
+ghci> (/) num1 num2
+
+<interactive>:59:1: error:
+    * No instance for (Fractional Integer) arising from a use of `/'
+    * In the expression: (/) num1 num2
+      In an equation for `it': it = (/) num1 num2
+ghci> --para poder realizar la division, convertimos los números a flotantes
+ghci> let n1 = read numero1 :: Float
+ghci> let n2 = read numero2 :: Float
+ghci>
+ghci> --ahora si aplicamos, la función división
+ghci> (/) n1 n2
+1.3333334
+ghci>
